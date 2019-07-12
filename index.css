@@ -65,8 +65,22 @@ main {
   height: 100%;
   width: 100%;
   background: #EAEAF4;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 button {
   color: red;
+}
+
+.idea-card {
+  height: 200px;
+  width: 150px;
+  border: solid 1px #1F1D3D;
+  margin: 10px;
+}
+
+.image{
+  height: 20px;
+  width: 20px;
 }
